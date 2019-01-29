@@ -4,58 +4,38 @@ class Rectangle extends Shape
 	protected double length;
 
 	Rectangle()
-	{
-		super();
+	{super();
 		width = 1;
-		length = 1;
-	}
+		length = 1;}
 
 	Rectangle(double l,double w)
-	{
-		super();
+	{super();
 		length = l;
-		width = w;
-	}
+		width = w;}
 
 	Rectangle(double l,double w,String c,boolean f)
-	{
-		super(c,f);
+	{super(c,f);
 		length = l;
-		width = w;
-	}
+		width = w;}
 
 	double getWidth()
-	{
-		return width;
-	}
+	{return width;}
 
 	double getLength()
-	{
-		return length;
-	}
+	{return length;}
 
 	void setLength(double l)
-	{
-		length = l;
-	}
+	{length = l;}
 
 	void setWidth(double w)
-	{
-		width = w;
-	}
+	{width = w;}
 
 	double getArea()
-	{
-		return (length*width);
-	}
+	{return (length*width);}
 
 	double getPerimeter()
-	{
-		return ((2*(length+width)));
-	}
+	{return ((2*(length+width)));}
 	
 	public String toString()
-	{
-		return (getColor()+"\t"+isFilled()+"\t"+getLength()+"\t"+getWidth()+"\t"+getArea()+"\t"+getPerimeter());
-	}
+	{return (getColor()+"\t"+isFilled()+"\t"+getLength()+"\t"+getWidth()+"\t"+getArea()+"\t"+getPerimeter());}
 		}
