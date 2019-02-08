@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 class Rectangle extends Shape{ 
 	double width, height;
 
@@ -11,4 +12,19 @@ class Rectangle extends Shape{
 		System.out.println("Area of Rectangle : " + area);
 	}
 	
+=======
+class Rectangle extends Shape{ 
+	double width, height;
+
+	Rectangle(double width, double height){
+		super();
+		this.width = width;
+		this.height = height;
+	}
+	public void getArea(){
+		area = width*height;
+		System.out.println("Area of Rectangle : " + area);
+	}
+	
+>>>>>>> Stashed changes
 }
